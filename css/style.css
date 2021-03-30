@@ -1,0 +1,23 @@
+header{
+       background-color: aquamarine;
+        width: 100%;
+}
+
+.encabezado{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+h3{
+    color: rgb(71, 67, 67);
+    margin: 5px;
+}
+
+.navegacion{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+}
