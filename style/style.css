@@ -8,7 +8,7 @@
 
 /* Generales */
 
-body{
+body {
     background-color: black;
     color: white;
     font-family: 'Suez One', serif;
@@ -43,5 +43,6 @@ body{
 .card{
     width: 50%;
 }
+
 
 /* Lista de artistas */
