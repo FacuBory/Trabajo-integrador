@@ -15,6 +15,15 @@ body {
     justify-content: center;
 }
 
+section{
+    font-family: 'Suez One', serif;
+}
+
+section h1{
+    margin-bottom: 2%;
+    font-family: 'Suez One', serif;
+}
+
 /* Cabecera */
 
 .main-header{
@@ -33,8 +42,8 @@ body {
     font-family: 'Suez One', serif;
     list-style: none;
     text-decoration: none;
-    color: white;
-    background-color: blue;
+    color: rgb(255, 255, 255);
+    background-color: rgb(22, 22, 22);
     margin: 2%;
     padding: 0;
     text-align: center;
@@ -50,23 +59,10 @@ body {
     display: flex;
 }
 
-/* Lista de artistas, albumes y canciones */
+/* Lista de artistas, canciones */
 
-section{
-    font-family: 'Suez One', serif;
-}
-
-section h1{
-    font-family: 'Suez One', serif;
-}
-
-.artistas ul, li, a, h1{
-    list-style: none;
-    text-decoration: none;
-    color: white;
-    text-align: center;
-    display: flex;
-    margin: 10px;
+.artistas{
+    display: block; 
     flex-direction: column;
 }
 
@@ -74,33 +70,70 @@ section h1{
     font-size: 30px;
 }
 
-.albumes{
+.artistas ul, li, a, h1{
     list-style: none;
-    text-decoration: none;
-    color: white;
-    text-align: center;
-    display: flex;
-    margin: 10px;
-    flex-direction: column;
+    margin: 5%;
+    flex-direction: row;
 }
+
+.marco-artistas{
+    align-items: center;
+    background-color: brown;
+    margin-bottom: 6%;
+}
+
+.marco-artistas img{
+    width: 60%;
+}
+
+.marco-artistas h3{
+    margin-right: 10px;
+}
+
+/* lista albumes */
 
 .albumes h3{
-    font-size: 30px;
+    font-size: 25px;
 }
 
-.canciones{
+.albumes ul, li, a, h1{
     list-style: none;
     text-decoration: none;
     color: white;
     text-align: center;
-    display: flex;
-    margin: 10px;
-    flex-direction: column;
+    margin: 5%;
+    flex-direction: row;
 }
 
-.canciones h3{
-    font-size: 30px;
+.marco-albumes{
+    align-items: center;
+    background-color: brown;
+    margin-bottom: 5%;
 }
+
+.marco-albumes img{
+    width: 35%;
+}
+
+/* Lista de Canciones */
+
+.canciones h3{
+    font-size: 20px;
+}
+.canciones{
+    justify-content: flex-end;
+}
+.marco-canciones{
+    align-items: center;
+    background-color: brown;
+    margin: 5%;
+}
+
+.marco-canciones img{
+    width: 35%;
+}
+
+
 /* footer */
 
 
@@ -120,3 +153,4 @@ footer p{
     margin: 1px;
     
 }
+
