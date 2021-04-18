@@ -9,16 +9,20 @@
 /* Generales */
 
 body {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     color: white;
     font-weight: normal;
-    justify-content: center;
 }
-
+.container{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    width: 95%;
+    flex-direction: column;
+    margin-left: 2.5%;
+}
 section{
     font-family: 'Suez One', serif;
 }
-
 section h1{
     margin-bottom: 2%;
     font-family: 'Suez One', serif;
@@ -30,109 +34,107 @@ section h1{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     font-family: 'Suez One', serif;
+    width: 100%;
 }
-
 .logo{
     margin: 0px;
+    margin-bottom: 5%;
     width: 90%;
 }
-
 .main-header li, .main-header a{
+    background-color: rgb(22, 22, 22);
     font-family: 'Suez One', serif;
     list-style: none;
+    color: white;
     text-decoration: none;
-    color: rgb(255, 255, 255);
-    background-color: rgb(22, 22, 22);
     margin: 2%;
-    padding: 0;
+    padding: 1px;
     text-align: center;
     font-size: 20px;
 }
-
-.card{
+.navegacion{
     margin-top: 4%;
     width: 95%;
 }
 
-.card a{
-    display: flex;
+/* Lista de artistas */
+
+.artistas h1{
+    margin-top: 5%;
+    margin-bottom: 3%;
+    text-align: center;
+    background-color: rgb(22, 22, 22);
+    padding: 4%;
 }
-
-/* Lista de artistas, canciones */
-
 .artistas{
-    display: block; 
     flex-direction: column;
-}
-
-.artistas h3{
-    font-size: 30px;
-}
-
-.artistas ul, li, a, h1{
-    list-style: none;
-    margin: 5%;
-    flex-direction: row;
-}
-
-.marco-artistas{
     align-items: center;
-    background-color: brown;
-    margin-bottom: 6%;
 }
-
-.marco-artistas img{
-    width: 60%;
-}
-
-.marco-artistas h3{
-    margin-right: 10px;
-}
-
-/* lista albumes */
-
-.albumes h3{
-    font-size: 25px;
-}
-
-.albumes ul, li, a, h1{
-    list-style: none;
+.artistas a, h3{
     text-decoration: none;
     color: white;
     text-align: center;
-    margin: 5%;
-    flex-direction: row;
+    font-size: 150%;
 }
-
-.marco-albumes{
+.marco-artistas{
     align-items: center;
     background-color: brown;
     margin-bottom: 5%;
 }
+.scott{
+    margin: 2%;
+}
+.mars{
+    margin: 2%;
+}
+.malone{
+    margin: 2%;
+}
+.drake{
+    margin: 10.5%;
+}
 
-.marco-albumes img{
-    width: 35%;
+/* lista albumes */
+
+.albumes h1{
+    background-color: rgb(22, 22, 22);
+    text-align: center;
+    padding: 4%;
+    margin-bottom: 5%;
+}
+
+.marco-albumes{
+    background-color: brown;
+    margin-bottom: 5%;
+    align-items: center;
+}
+
+.marco-albumes a{
+    text-decoration: none;
 }
 
 /* Lista de Canciones */
 
-.canciones h3{
-    font-size: 20px;
+.canciones h1{
+    background-color: rgb(22, 22, 22);
+    padding: 4%;
+    text-align: center;
+    margin-bottom: 5%;
 }
-.canciones{
-    justify-content: flex-end;
-}
+
+
 .marco-canciones{
-    align-items: center;
     background-color: brown;
-    margin: 5%;
+    align-items: center;
+    margin-bottom: 5%;
 }
 
-.marco-canciones img{
-    width: 35%;
+.marco-canciones a{
+    text-decoration: none;
+    align-items: center;
 }
-
 
 /* footer */
 
@@ -143,7 +145,7 @@ footer ul, a, li{
     font-size: 14px;
     justify-content: center;   
     margin: 4px;
-   
+   color: white;
 }
 
 footer p{
@@ -151,6 +153,5 @@ footer p{
     font-size: 11px;
     text-align: center;
     margin: 1px;
-    
 }
 
