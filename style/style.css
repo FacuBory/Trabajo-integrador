@@ -60,6 +60,9 @@ section h1{
 }
 
 /* Lista de artistas */
+.artistas img{
+    width: 65%;
+}
 
 .artistas h1{
     margin-top: 5%;
@@ -96,7 +99,39 @@ section h1{
     margin: 10.5%;
 }
 
+
+/* Lista de Canciones */
+.canciones h1{
+    background-color: rgb(22, 22, 22);
+    padding: 4%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.canciones img{
+    width: 20%;
+    border-radius: 15%;
+    margin-left: 9%;
+
+}
+.canciones h3{
+    margin-left: 3%;
+}
+.marco-canciones{
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.marco-canciones a{
+    text-decoration: none;
+}
+
 /* lista albumes */
+
+.albumes img{
+    width: 50%;
+    padding-left : 12%;
+}
 
 .albumes h1{
     background-color: rgb(22, 22, 22);
@@ -104,7 +139,6 @@ section h1{
     padding: 4%;
     margin-bottom: 5%;
 }
-
 .marco-albumes{
     background-color: brown;
     margin-bottom: 5%;
@@ -115,43 +149,53 @@ section h1{
     text-decoration: none;
 }
 
-/* Lista de Canciones */
-
-.canciones h1{
-    background-color: rgb(22, 22, 22);
-    padding: 4%;
-    text-align: center;
-    margin-bottom: 5%;
-}
-
-
-.marco-canciones{
-    background-color: brown;
-    align-items: center;
-    margin-bottom: 5%;
-}
-
-.marco-canciones a{
-    text-decoration: none;
-    align-items: center;
-}
-
 /* footer */
 
-
 footer ul, a, li{
+    text-decoration: none;
     font-family: 'Arapey', serif;
     display: flex;
     font-size: 14px;
     justify-content: center;   
     margin: 4px;
-   color: white;
+    color: white;
 }
-
 footer p{
     font-family: 'Arapey', serif;
     font-size: 11px;
     text-align: center;
     margin: 1px;
 }
+/* playlist */
 
+.playlist h1{
+    font-weight: normal; 
+    margin-top: 5%;
+    background-color: rgb(22, 22, 22);
+    text-align: center;
+    padding: 4%;
+    margin-bottom: 5%;
+}
+/* Generos */
+
+.card-genero h1{
+    font-weight: normal;
+    margin-top: 5%;
+    background-color: rgb(22, 22, 22);
+    text-align: center;
+    padding: 4%;
+    margin-bottom: 5%;
+   
+}
+.generos{
+    padding: 3%;
+    margin: 2%;
+    background-color:blue;
+}
+.generos a{
+    font-size: 20px;
+    font-weight: normal;
+    font-family: 'Suez One', serif;
+    
+
+}
