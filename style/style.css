@@ -44,7 +44,7 @@ section h1{
     width: 90%;
 }
 .main-header li, .main-header a{
-    background-color: rgb(22, 22, 22);
+    background-color: rgb(31, 31, 73);
     font-family: 'Suez One', serif;
     list-style: none;
     color: white;
@@ -68,7 +68,7 @@ section h1{
     margin-top: 5%;
     margin-bottom: 3%;
     text-align: center;
-    background-color: rgb(22, 22, 22);
+    background-color: rgb(31, 31, 73);
     padding: 4%;
 }
 .artistas{
@@ -102,7 +102,7 @@ section h1{
 
 /* Lista de Canciones */
 .canciones h1{
-    background-color: rgb(22, 22, 22);
+    background-color: rgb(31, 31, 73);
     padding: 4%;
     text-align: center;
     margin-bottom: 5%;
@@ -115,6 +115,7 @@ section h1{
 }
 .canciones h3{
     margin-left: 3%;
+    
 }
 .marco-canciones{
     justify-content: flex-start;
@@ -138,7 +139,7 @@ section h1{
 }
 
 .albumes h1{
-    background-color: rgb(22, 22, 22);
+    background-color: rgb(31, 31, 73);
     text-align: center;
     padding: 4%;
     margin-bottom: 5%;
@@ -179,7 +180,7 @@ footer p{
 .playlist h1{
     font-weight: normal; 
     margin-top: 5%;
-    background-color: rgb(22, 22, 22);
+    background-color: rgb(31, 31, 73);
     text-align: center;
     padding: 4%;
     margin-bottom: 5%;
@@ -189,7 +190,7 @@ footer p{
 .card-genero h1{
     font-weight: normal;
     margin-top: 5%;
-    background-color: rgb(22, 22, 22);
+    background-color: rgb(31, 31, 73);
     text-align: center;
     padding: 4%;
     margin-bottom: 5%;
@@ -198,7 +199,7 @@ footer p{
 .generos{
     padding: 3%;
     margin: 2%;
-    background-color:rgb(31, 31, 32);
+    background-color:rgb(31, 31, 73);
 }
 .generos a{
     font-size: 20px;
@@ -211,7 +212,7 @@ footer p{
 .detalle-artistas h1{
     font-weight: normal;
     margin-top: 5%;
-    background-color: rgb(22, 22, 22);
+    background-color: rgb(31, 31, 73);
     text-align: center;
     padding: 4%;
     margin-bottom: 5%;
@@ -238,7 +239,7 @@ footer p{
     text-align: center;
     font-size: 120%;
     margin-bottom: 1%;
-    background-color: rgb(22, 22, 22);
+    background-color: rgb(41, 41, 43);
 }
 
 .card-detalle li{
@@ -250,7 +251,7 @@ footer p{
 .detalle-albumes h1{
     font-weight: normal;
     margin-top: 5%;
-    background-color: rgb(22, 22, 22);
+    background-color: rgb(31, 31, 73);
     text-align: center;
     padding: 4%;
     margin-bottom: 5%;
@@ -265,7 +266,7 @@ footer p{
 }
 
 .card-albumes{
-    background-color: blue;
+    background-color:rgb(31, 31, 73);
     margin: 5%;
     display: flex;
     flex-direction: column;
@@ -273,4 +274,10 @@ footer p{
 
 .card-albumes ul{
     
+}
+
+.nombres{
+background-color:rgb(31, 31, 73);
+margin: 10px;
+padding: 10px;
 }
