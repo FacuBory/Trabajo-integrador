@@ -39,9 +39,7 @@ section h1{
     width: 100%;
 }
 .logo{
-    margin: 0px;
-    margin-bottom: 5%;
-    width: 90%;
+    width: 100%;
 }
 .main-header li, .main-header a{
     background-color: rgb(31, 31, 73);
@@ -199,12 +197,28 @@ footer p{
 .generos{
     padding: 3%;
     margin: 2%;
-    background-color:rgb(31, 31, 73);
+   
 }
 .generos a{
     font-size: 20px;
     font-weight: normal;
     font-family: 'Suez One', serif;
+}
+
+.generos img{
+    width: 50%;
+}
+
+.generos h1{
+    font-weight: normal;
+    margin-top: 3%;
+    background-color: rgb(19, 19, 45);
+    text-align: center;
+    padding: 4%;
+}
+
+.generos h2{
+    margin-left: 8%;
 }
 
 /* Detalle de Artistas */
@@ -267,13 +281,13 @@ footer p{
 .card-albumes h3{
     margin: 5%;
     padding: 10px;
-    background-color: rgb(23, 23, 23);
+    background-color: rgb(31, 31, 73);
 }
 .card-albumes{
-    background-color:rgb(31, 31, 73);
     margin: 5%;
     display: flex;
     flex-direction: column;
+    background-color: rgb(42, 41, 41);
 }
 .card-albumes ul{
     margin-right: 50%;
@@ -291,3 +305,4 @@ background-color:rgb(31, 31, 73);
 margin: 10px;
 padding: 10px;
 }
+
