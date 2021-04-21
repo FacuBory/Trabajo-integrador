@@ -143,6 +143,9 @@ section h1{
     background-color: brown;
     margin-bottom: 5%;
     align-items: center;
+    margin: 25px;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .marco-albumes a{
