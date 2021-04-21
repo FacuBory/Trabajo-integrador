@@ -244,3 +244,33 @@ footer p{
 .card-detalle li{
     margin: 2%;
 }
+
+/* Detalle de Albumes*/
+
+.detalle-albumes h1{
+    font-weight: normal;
+    margin-top: 5%;
+    background-color: rgb(22, 22, 22);
+    text-align: center;
+    padding: 4%;
+    margin-bottom: 5%;
+}
+
+.detalle-albumes img{
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 50%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+.card-albumes{
+    background-color: blue;
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-albumes ul{
+    
+}
