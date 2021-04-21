@@ -130,7 +130,11 @@ section h1{
 
 .albumes img{
     width: 50%;
-    padding-left : 12%;
+    margin-left: 15%;
+}
+
+.albumes h3{
+        margin-left: 25%;
 }
 
 .albumes h1{
@@ -200,6 +204,43 @@ footer p{
     font-size: 20px;
     font-weight: normal;
     font-family: 'Suez One', serif;
-    
+}
 
+/* Detalle de Artistas */
+
+.detalle-artistas h1{
+    font-weight: normal;
+    margin-top: 5%;
+    background-color: rgb(22, 22, 22);
+    text-align: center;
+    padding: 4%;
+    margin-bottom: 5%;
+}
+.detalle-artistas img{
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 50%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+.card-detalle h3{
+    font-size: 180%;
+}
+.card-detalle{
+    display: flex;
+    background-color: rgb(42, 41, 41);
+    margin: 5%;
+    flex-direction: column;
+    border-radius: 1%;
+}
+
+.card-detalle h5{
+    text-align: center;
+    font-size: 120%;
+    margin-bottom: 1%;
+    background-color: rgb(22, 22, 22);
+}
+
+.card-detalle li{
+    margin: 2%;
 }
