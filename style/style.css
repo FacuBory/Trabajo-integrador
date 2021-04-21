@@ -83,7 +83,7 @@ section h1{
 }
 .marco-artistas{
     align-items: center;
-    background-color: brown;
+    background-color: rgb(19, 19, 45);
     margin-bottom: 5%;
 }
 .scott{
@@ -145,7 +145,7 @@ section h1{
     margin-bottom: 5%;
 }
 .marco-albumes{
-    background-color: brown;
+    background-color: rgb(19, 19, 45);
     margin-bottom: 5%;
     align-items: center;
     margin: 25px;
