@@ -316,6 +316,8 @@ padding: 10px;
     .container{
         display: flex;
         align-items: center;
+        width: 100%;
+        margin: 0%;
     }
 
     .main-header{
@@ -384,18 +386,19 @@ padding: 10px;
 }
 .canciones ul{
     display: flex;
-    background-color: rgb(0, 0, 0);
-   margin: 30px;
+    margin: 30px;
 }
+
+.marco-canciones li{
+    display: flex;
+}
+
 .marco-canciones{
     background-color: rgb(31, 31, 73);
     border-radius: 10px;
     margin: 10px;
-    padding: 3%;
-  
-    
+    padding: 3%;   
 }
-
 
 
 /* Lista de albumes */
@@ -409,15 +412,15 @@ padding: 10px;
 }
 
 .albumes img{
-    width: 30%;
+    width: 75%;
     border-radius: 5%;
 }
-
+.albumes li{
+    background-color: blue;
+}
 .albumes ul{
     display: flex;
     background-color: rgb(0, 0, 0);
-}
-
 }
 
 /* Detalle de artistas */
@@ -430,10 +433,28 @@ padding: 10px;
 
 /* Detalle de Albumes */
 
+.detalle-albumes h1{
+    width: 100%;
+    margin: 0%;
+    padding: 1%;
+    font-size: 230%;
+}
 .detalle-albumes{
-    width: 50%;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+.detalle-albumes{
+    width: 100%;
+}
+
+.card-albumes{
+    margin-left: 6.5%;
+    margin-right: 0%;
+    margin-top: 6.5%;
+    margin-bottom: 0%;
+    width: 40%;
 }
 
 
