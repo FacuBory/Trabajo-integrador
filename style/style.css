@@ -306,3 +306,59 @@ margin: 10px;
 padding: 10px;
 }
 
+@media(min-width:1024px){
+
+    .container{
+        display: flex;
+    }
+
+    .main-header{
+        display: inline;
+    }
+    
+    .logo{
+        width: 25%;
+    }
+
+    header img{
+        float: right;
+    }
+
+    .navegacion ul li{
+        float: left;
+        margin: 1%;
+    }
+
+    .navegacion a{
+        background-color: black;
+    }
+
+/* Lista de Artistas */
+
+.artistas h1{
+    font-size: 3vw;
+    padding: 0%;
+    text-align: start;
+    background-color: black;
+}
+
+.artistas img{
+    width: 100%;
+    border-radius: 5%;
+}
+.artistas ul{
+    display: flex
+}
+
+.artistas li{
+    border-radius: 5%;
+    display: block;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    background-color:rgb(31, 31, 73);
+    margin: 
+}
+
+    
+}
