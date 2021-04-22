@@ -378,10 +378,22 @@ padding: 10px;
     background-color: black;
     margin-bottom: 0%;
 }
-
+.canciones img{
+    width: 80%;
+    border-radius: 5%;
+}
 .canciones ul{
     display: flex;
-    background-color: blue;
+    background-color: rgb(0, 0, 0);
+   margin: 30px;
+}
+.marco-canciones{
+    background-color: rgb(31, 31, 73);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 3%;
+  
+    
 }
 
 
@@ -403,10 +415,9 @@ padding: 10px;
 
 .albumes ul{
     display: flex;
+    background-color: rgb(0, 0, 0);
 }
 
-.albmes li{
-   
 }
 
 /* Detalle de artistas */
