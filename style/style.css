@@ -343,7 +343,9 @@ padding: 10px;
     }
 
     .navegacion a{
-        background-color: black;
+        background-color: rgb(31, 31, 73);
+        padding: 3%;
+        margin: 3%;
     }
 /* Lista de Artistas */
 
@@ -420,7 +422,7 @@ padding: 10px;
     border-radius: 5%;
 }
 .albumes li{
-    background-color: blue;
+    background-color: rgb(31, 31, 73);
 }
 .albumes ul{
     display: flex;
