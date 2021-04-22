@@ -319,28 +319,32 @@ padding: 10px;
         width: 100%;
         margin: 0%;
     }
+/* Cabecera */
 
     .main-header{
-        display: inline;
+        flex-direction: row-reverse;
+        
     }
     
     .logo{
         width: 25%;
     }
 
-    header img{
-        float: right;
+    form{
+        margin-top: 1%;
+        margin-right: 3%;
+        display: flex;
     }
 
-    .navegacion ul li{
-        float: left;
-        margin: 1%;
+    .navegacion ul{
+        margin-left: 2%;
+        margin-bottom: 5%;
+        display: flex;
     }
 
     .navegacion a{
         background-color: black;
     }
-
 /* Lista de Artistas */
 
 .artistas h1{
@@ -443,7 +447,6 @@ padding: 10px;
     display: flex;
     flex-wrap: wrap;
 }
-
 
 .detalle-albumes{
     width: 100%;
