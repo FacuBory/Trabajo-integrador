@@ -431,23 +431,36 @@ padding: 10px;
 
 /* Detalle de artistas */
 
-.detalle-artistas{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-}
-
-/* Detalle de Albumes */
-
-.detalle-albumes h1{
+.detalle-artistas h1{
     width: 100%;
     margin: 0%;
     padding: 1%;
     font-size: 230%;
 }
+.detalle-artistas{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.detalle-artistas{
+    width: 100%;
+}
+
+.card-detalle{
+    margin-left: 1.5%;
+    margin-right: 0%;
+    margin-top: 6.5%;
+    margin-bottom: 0%;
+    width: 18%;
+
+/* Detalle de Albumes */
+
+}
 .detalle-albumes{
     display: flex;
     flex-wrap: wrap;
+
 }
 
 .detalle-albumes{
@@ -457,10 +470,12 @@ padding: 10px;
 .card-albumes{
     margin-left: 6.5%;
     margin-right: 0%;
-    margin-top: 6.5%;
-    margin-bottom: 0%;
     width: 40%;
 }
 
 
-}
+
+
+
+
+
