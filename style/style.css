@@ -332,7 +332,7 @@ padding: 10px;
 
     form{
         margin-top: 1%;
-        margin-right: 3%;
+        margin-right: 1%;
         display: flex;
     }
 
@@ -440,11 +440,7 @@ padding: 10px;
 .detalle-artistas{
     display: flex;
     flex-wrap: wrap;
-}
-
-
-.detalle-artistas{
-    width: 100%;
+     width: 100%;
 }
 
 .card-detalle{
@@ -454,13 +450,20 @@ padding: 10px;
     margin-bottom: 0%;
     width: 18%;
 
+}
+
 /* Detalle de Albumes */
 
+.detalle-albumes h1{
+    width: 100%;
+    margin: 0%;
+    padding: 1%;
+    font-size: 230%;
 }
 .detalle-albumes{
     display: flex;
     flex-wrap: wrap;
-
+    width: 100%;
 }
 
 .detalle-albumes{
@@ -468,14 +471,49 @@ padding: 10px;
 }
 
 .card-albumes{
-    margin-left: 6.5%;
-    margin-right: 0%;
-    width: 40%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    margin-top: 6.5%;
+    margin-bottom: 0%;
+    width: 30%;
+}
+    
+
+/* Generos */
+
+.card-genero{
+    width: 100%;
+}
+
+.card-genero h1{
+    width: 100%;
+    margin: 0%;
+    padding: 1%;
+    font-size: 200%;
+}
+
+.card-genero ul{
+    margin: 3%;
+}
+
+.card-genero li a{
+    font-size: 150%;
+    margin: 1%;
+
+}
+/* Playlist */
+
+.playlist{
+    width: 100%;
+}
+
+.playlist h1{
+    padding: 2%;
+    margin: 0%;
+    margin-bottom: 5%;
 }
 
 
-
-
-
+}
 
 
