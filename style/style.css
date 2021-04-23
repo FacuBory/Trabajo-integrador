@@ -388,28 +388,30 @@ padding: 10px;
     padding: 0%;
     text-align: start;
     background-color: black;
-    margin-bottom: 0%;
-    margin: 2%;
+    margin-top: 0%;
+    margin-bottom: 2%;
+    text-align:center;
 }
 
 .artistas img{
-    width: 100%;
+    width: 80%;
     border-radius: 5%;
+    margin-right: 15%;
 }
+.artistas h3{
+    margin-top: 5%;
+    font-size: 110%;
+}
+
 .artistas ul{
-    display: flex
-}
-.drake a{
-    padding: 0%;
+    display: flex;
+    margin-bottom: 0%;
 }
 
 .artistas li{
     border-radius: 5%;
-    display: block;
-    padding-left: 3%;
-    padding-right: 3%;
-    padding-bottom: 3%;
-    background-color:rgb(31, 31, 73);
+    flex-direction: column-reverse;
+    background-color: rgb(31, 31, 73);
 }
 
 /* Lista de canciones */ 
@@ -420,28 +422,29 @@ padding: 10px;
     text-align: start;
     background-color: black;
     margin-bottom: 0%;
-    margin: 2%;
+    text-align: center;
 }
 .canciones img{
-    width: 80%;
+    width: 70%;
     border-radius: 5%;
+    margin-left: 0%;
 }
+
+
+.canciones h3{
+    font-size: 100%;
+
+}
+
 .canciones ul{
     display: flex;
-    margin: 30px;
+    margin-bottom: 3%;
+    flex-direction: row;
 }
-
-.marco-canciones li{
-    display: flex;
-}
-
-.marco-canciones{
+.canciones li{
     background-color: rgb(31, 31, 73);
-    border-radius: 10px;
-    margin: 10px;
-    padding: 3%;   
+    border-radius: 5%;
 }
-
 
 /* Lista de albumes */
 
@@ -451,19 +454,28 @@ padding: 10px;
     text-align: start;
     background-color: black;
     margin-bottom: 0%;
+    text-align: center;
 }
 
 .albumes img{
-    width: 75%;
+    width: 120%;
     border-radius: 5%;
+    margin-left: 0%;
+}
+.albumes h3{
+    margin-left: 0%;
+    font-size: 110%;
+    margin-top: 5%;
 }
 .albumes li{
+    flex-direction: column-reverse;
     background-color: rgb(31, 31, 73);
 }
 .albumes ul{
+    margin-bottom: 2%;
     display: flex;
-    background-color: rgb(0, 0, 0);
 }
+
 
 /* Detalle de artistas */
 
