@@ -202,11 +202,6 @@ footer p{
     margin: 2%;
    
 }
-.generos a{
-    font-size: 20px;
-    font-weight: normal;
-    font-family: 'Suez One', serif;
-}
 
 .generos img{
     width: 50%;
@@ -231,7 +226,13 @@ footer p{
 .card-genero li{
     background-color: rgb(31, 31, 73);
     padding: 1%;
-    margin: 1%;
+    margin: 0%;
+    margin-bottom: 1.8%;
+}
+
+.generos ul{
+    margin: 0%;
+
 }
 
 
@@ -384,7 +385,7 @@ padding: 10px;
     }
 
     .navegacion ul{
-        margin-left: 2%;
+        margin-right: 10%;
         margin-bottom: 5%;
         display: flex;
     }
