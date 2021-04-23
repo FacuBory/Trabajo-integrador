@@ -352,11 +352,12 @@ padding: 10px;
         width: 100%;
         margin: 0%;
     }
+
 /* Cabecera */
 
     .main-header{
         flex-direction: row-reverse;
-        
+
     }
     
     .logo{
@@ -468,21 +469,21 @@ padding: 10px;
 
 .detalle-artistas h1{
     width: 100%;
-    margin: 2%;
+    margin: 0%;
     padding: 1%;
     font-size: 230%;
-
 }
+
 .detalle-artistas{
     display: flex;
     flex-wrap: wrap;
-     width: 100%;
+    width: 100%;
 }
 
 .card-detalle{
     margin-left: 1.5%;
     margin-right: 0%;
-    margin-top: 6.5%;
+    margin-top: 2%;
     margin-bottom: 0%;
     width: 18%;
 
@@ -502,18 +503,13 @@ padding: 10px;
     width: 100%;
 }
 
-.detalle-albumes{
-    width: 100%;
-}
-
 .card-albumes{
-    margin-left: 1.5%;
-    margin-right: 1.5%;
-    margin-top: 6.5%;
+    margin-left: 2%;
+    margin-right: 1%;
+    margin-top: 2.5%;
     margin-bottom: 0%;
     width: 30%;
 }
-    
 
 /* Generos */
 
