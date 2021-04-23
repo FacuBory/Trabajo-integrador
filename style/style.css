@@ -427,13 +427,39 @@ padding: 10px;
     text-align: center;
 }
 .canciones img{
-    width: 70%;
+    width: 50%;
     border-radius: 5%;
     margin-left: 0%;
 }
 .canciones h3{
+    margin-top: 20%;
     font-size: 100%;
 }
+
+.goosebumps h3{
+    margin-top: 26%;
+    margin-left: 3%;
+}
+.goosebumps img{
+    width: 60%;
+}
+
+.rockstar h3{
+    margin-top: 28%;
+    margin-left: 4%;
+}
+.rockstar img{
+    width: 65%;
+}
+
+.starboy h3{
+    margin-top: 28%;
+    margin-left: 5%;
+}
+.starboy img{
+    width: 66%;
+}
+
 .canciones ul{
     display: flex;
     margin-bottom: 3%;
