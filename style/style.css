@@ -357,9 +357,11 @@ padding: 10px;
 
     .main-header{
         flex-direction: row-reverse;
-
     }
-    
+    .main-header li, .main-header a{
+        background-color: black;
+    }
+
     .logo{
         width: 25%;
     }
@@ -377,7 +379,6 @@ padding: 10px;
     }
 
     .navegacion a{
-        background-color: rgb(31, 31, 73);
         padding: 3%;
         margin: 3%;
     }
@@ -385,9 +386,9 @@ padding: 10px;
 
 .artistas h1{
     font-size: 2vw;
-    padding: 0%;
+    padding: 1%;
     text-align: start;
-    background-color: black;
+    background-color: rgb(31, 31, 73);
     margin-top: 0%;
     margin-bottom: 2%;
     text-align:center;
@@ -412,16 +413,17 @@ padding: 10px;
     border-radius: 5%;
     flex-direction: column-reverse;
     background-color: rgb(31, 31, 73);
+    margin-bottom: 2.5%;
 }
 
 /* Lista de canciones */ 
 
 .canciones h1{
     font-size: 2vw;
-    padding: 0%;
+    padding: 1%;
     text-align: start;
-    background-color: black;
-    margin-bottom: 0%;
+    background-color: rgb(31, 31, 73);
+    margin-bottom: 2%;
     text-align: center;
 }
 .canciones img{
@@ -429,13 +431,9 @@ padding: 10px;
     border-radius: 5%;
     margin-left: 0%;
 }
-
-
 .canciones h3{
     font-size: 100%;
-
 }
-
 .canciones ul{
     display: flex;
     margin-bottom: 3%;
@@ -444,15 +442,16 @@ padding: 10px;
 .canciones li{
     background-color: rgb(31, 31, 73);
     border-radius: 5%;
+    margin-bottom: 0%;
 }
 
 /* Lista de albumes */
 
 .albumes h1{
     font-size: 2vw;
-    padding: 0%;
+    padding: 1%;
     text-align: start;
-    background-color: black;
+    background-color: rgb(31, 31, 73);
     margin-bottom: 0%;
     text-align: center;
 }
@@ -475,7 +474,6 @@ padding: 10px;
     margin-bottom: 2%;
     display: flex;
 }
-
 
 /* Detalle de artistas */
 
