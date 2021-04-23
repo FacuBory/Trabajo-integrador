@@ -423,11 +423,18 @@ padding: 10px;
 }
 .albumes li{
     background-color: rgb(31, 31, 73);
+    height: 300px;
+    width: 200px;
 }
 .albumes ul{
     display: flex;
     background-color: rgb(0, 0, 0);
 }
+
+.albumes h3{
+color: rgb(255, 255, 255);
+}
+
 
 /* Detalle de artistas */
 
