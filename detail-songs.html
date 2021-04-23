@@ -1,114 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Suez+One&display=swap" rel="stylesheet"><link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="stylesheet" href="style/style.css">
-    <title>Document</title>
-</head>
-<body>
-    <div class="container">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Suez+One&display=swap" rel="stylesheet"><link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="stylesheet" href="style/style.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="container">
 
-        <!-- Cabecera -->   
+            <!-- Cabecera -->   
 
-        <header class="main-header">
-            <img class="logo" src="images/logo.png" alt="Logo de la pagina">
+            <header class="main-header">
+                <img class="logo" src="images/logo.png" alt="Logo de la pagina">
 
-            <form action="search-results.html" method="GET" target="_blank">
-                <input type="text" name="busquedademusica" placeholder="Cancion, artista, album...">
-                <input type="submit" value="Buscar">
-            </form>   
-        
-            <nav class="navegacion">
-                <ul>
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="playlist.html">Playlists</a></li>
-                    <li><a href="detail-artist.html">Artistas</a></li>
-                    <li><a href="detail-album.html">Álbumes</a></li>  
-                    <li><a href="genres.html">Géneros</a></li>
-                    <li><a href="detail-songs.html">Canciones</a></li>   
+                <form action="search-results.html" method="GET" target="_blank">
+                    <input type="text" name="busquedademusica" placeholder="Cancion, artista, album...">
+                    <input type="submit" value="Buscar">
+                </form>   
+            
+                <nav class="navegacion">
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="playlist.html">Playlists</a></li>
+                        <li><a href="detail-artist.html">Artistas</a></li>
+                        <li><a href="detail-album.html">Álbumes</a></li>  
+                        <li><a href="genres.html">Géneros</a></li>
+                        <li><a href="detail-songs.html">Canciones</a></li>   
+                    </ul>
+                </nav>
+            </header>
+            
+            <section class="lista-canciones">
+
+                <h1>Detalle de cacniones</h1>
+                
+                <div class="card-song">
+                    <ul>       
+                        <li><img src="images/Goosebumps.jpg" alt=""><a href="detail-songs.html"><h3 id="Goosebumps">Goosebumps - Travis Scott</h3> </li>
+                    </ul>
+                </div> 
+
+                <div class="card-song">
+                    <ul>
+                        <li><img src="images/Rockstar.jpg" alt=""><a href="detail-songs.html"><h3 id="Rockstar">Rockstar - Post Malone</h3></li>
+                    </ul>
+                </div>
+
+                <div class="card-song">
+                    <ul>
+                        <li><img src="images/Starboy-The Weeknd.jpg" alt=""><a href="detail-songs.html"><h3 id="Starboy">Starboy - The Weeknd</h3></li>
+                    </ul>
+                </div>
+
+                <div class="card-song">
+                    <ul>
+                        <li><img src="images/Leave the door Open.webp" alt=""><a href="detail-songs.html"><h3 id="Leavethedooropen">Leave The Door Open - Bruno Mars</h3></li>
+                    </ul>
+                </div>
+
+                <div class="card-song">
+                    <ul>
+                        <li><img src="images/Laugh Now Cry Later.jpg" alt=""><a href="detail-songs.html"><h3 id="Laughnowcrylater">Laugh Now Cry Later</h3></li>
+                    </ul>
+                </div>
+            </section>        
+            <!-- footer -->
+
+            <footer>
+                <ul class="terminos">
+                    <li><a href="#">Términos y condiciones</a></li>
+
+                    <li><a href="#">Ayuda</a></li>
+
+                    <li><a href="#">Contacto</a></li>
+                    
+                    <li><a href="#">Privacidad</a></li>
                 </ul>
-            </nav>
-        </header>
-<br>
-<br>
 
- <div>
-        <ul>
-                     
-            <li>
-                <p><a href="detail-songs.html"><h3 id="Goosebumps">Goosebumps </h3></p>
-                <img src="images/Goosebumps.jpg" alt="">
-                <ul>
-                    <li>Travis Scott</li>
-                </ul>
-            </li>
-        </ul>
-    </div> 
-            <br>
-            <br>
-    <div>
-            <li>
-                <p><a href="detail-songs.html"><h3 id="Rockstar">Rockstar </h3></p>
-                <img src="images/Rockstar.jpg" alt="">
-                <ul>
-                    <li>Post Malone</li>
-                </ul>
-               
-            </li>
-    </div>
-            <br>
-            <br>
-    <div>
-            <li>
-                <p><a href="detail-songs.html"><h3 id="Starboy">Starboy </h3></p>
-                <img src="images/Starboy-The Weeknd.jpg" alt="">
-                <ul>
-                    <li>The Weeknd</li>
-                </ul>
-            </li>
-    </div>
-            <br>
-            <br>
-    <div>
-            <li>
-                <p><a href="detail-songs.html"><h3 id="Leavethedooropen">Leave The Door Open </h3></p>
-                <img src="images/Leave the door Open.webp" alt="">
-                <ul>
-                    <li>Bruno Mars</li>
-                </ul>
-            </li>
-    </div>
-            <br>
-            <br>
-    <div>
-            <li>
-                <p><a href="detail-songs.html"><h3 id="Laughnowcrylater">Laugh Now Cry Later </h3></p>
-                <img src="images/Laugh Now Cry Later.jpg" alt="">
-                <ul>
-                    <li>Drake</li>
-                </ul>
-            </li>
-    </div>
-
-        
- <!-- footer -->
-
- <footer>
-    <ul class="terminos">
-        <li><a href="#">Términos y condiciones</a></li>
-
-        <li><a href="#">Ayuda</a></li>
-
-        <li><a href="#">Contacto</a></li>
-        
-        <li><a href="#">Privacidad</a></li>
-    </ul>
-
-    <p>Copyright ReVibe 2021. Todos los derechos reservados ©</p> 
-    <p>Bruno Gonzalez, Facundo Bory y Benjamin Galeazzi</p>     
-</footer>
-</body>
+                <p>Copyright ReVibe 2021. Todos los derechos reservados ©</p> 
+                <p>Bruno Gonzalez, Facundo Bory y Benjamin Galeazzi</p>     
+            </footer>
+        </div>
+    </body>
 </html>

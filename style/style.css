@@ -309,6 +309,39 @@ margin: 10px;
 padding: 10px;
 }
 
+/* Detalle de canciones */
+
+.lista-canciones h1{
+    font-weight: normal;
+    margin-top: 5%;
+    background-color: rgb(31, 31, 73);
+    text-align: center;
+    padding: 4%;
+    margin-bottom: 5%;
+}
+.lista-canciones{
+    width: 100%;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-song img{
+    width: 100px;
+    float: left;
+    border-radius: 50%;
+}
+.card-song{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.card-song h3{
+    margin-top: 11%;
+    margin-left: 1%;
+
+}
+
 /* Large Devices, Wide Screens*/
 
 @media (min-width:1024px){  
@@ -423,18 +456,11 @@ padding: 10px;
 }
 .albumes li{
     background-color: rgb(31, 31, 73);
-    height: 300px;
-    width: 200px;
 }
 .albumes ul{
     display: flex;
     background-color: rgb(0, 0, 0);
 }
-
-.albumes h3{
-color: rgb(255, 255, 255);
-}
-
 
 /* Detalle de artistas */
 
@@ -555,6 +581,20 @@ color: rgb(255, 255, 255);
     display: flex;
 }
 
+/* Detalle de canciones */
+
+.lista-canciones h1{
+    width: 100%;
+    margin: 0%;
+    padding: 1%;
+    font-size: 200%;
+    margin-bottom: 3%;
 }
 
+.card-song{
+    display: flex;
+    margin-left: 35%;
+    
+}
 
+}
