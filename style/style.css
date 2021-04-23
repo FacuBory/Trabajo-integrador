@@ -3,7 +3,7 @@
 *{
     box-sizing: border-box;
     padding: 0px;
-    margin: 0px;
+    margin:5px;
 }
 
 /* Generales */
@@ -356,7 +356,7 @@ padding: 10px;
 /* Cabecera */
 
     .main-header{
-        flex-direction: row-reverse;
+        flex-direction: row; 
     }
     .main-header li, .main-header a{
         background-color: black;
@@ -407,6 +407,7 @@ padding: 10px;
 .artistas ul{
     display: flex;
     margin-bottom: 0%;
+    margin:0px;
 }
 
 .artistas li{
@@ -495,11 +496,13 @@ padding: 10px;
 .albumes li{
     flex-direction: column-reverse;
     background-color: rgb(31, 31, 73);
-    margin: 1%;
+    margin: 0.5%;
+   
 }
 .albumes ul{
     margin-bottom: 2%;
     margin-top: 1%;
+  
     display: flex;
     
 }
