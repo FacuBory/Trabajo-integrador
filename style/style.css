@@ -539,7 +539,6 @@ padding: 10px;
     background-color: rgb(23, 23, 65);
     text-align: center;
 }
-}
 
 .marco-albumes{
     width: 50%;
@@ -548,4 +547,7 @@ padding: 10px;
 .detalle-album{
     display: flex;
 }
+
 }
+
+
