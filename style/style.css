@@ -224,6 +224,17 @@ footer p{
     margin-left: 8%;
 }
 
+.card-genero a{
+   font-size: 200%;
+   
+}
+.card-genero li{
+    background-color: rgb(31, 31, 73);
+    padding: 1%;
+    margin: 1%;
+}
+
+
 /* Detalle de Artistas */
 
 .detalle-artistas h1{
