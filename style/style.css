@@ -388,6 +388,7 @@ padding: 10px;
     text-align: start;
     background-color: black;
     margin-bottom: 0%;
+    margin: 2%;
 }
 
 .artistas img{
@@ -418,6 +419,7 @@ padding: 10px;
     text-align: start;
     background-color: black;
     margin-bottom: 0%;
+    margin: 2%;
 }
 .canciones img{
     width: 80%;
@@ -466,9 +468,10 @@ padding: 10px;
 
 .detalle-artistas h1{
     width: 100%;
-    margin: 0%;
+    margin: 2%;
     padding: 1%;
     font-size: 230%;
+
 }
 .detalle-artistas{
     display: flex;
