@@ -495,10 +495,13 @@ padding: 10px;
 .albumes li{
     flex-direction: column-reverse;
     background-color: rgb(31, 31, 73);
+    margin: 1%;
 }
 .albumes ul{
     margin-bottom: 2%;
+    margin-top: 1%;
     display: flex;
+    
 }
 
 /* Detalle de artistas */
